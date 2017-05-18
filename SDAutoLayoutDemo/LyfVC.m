@@ -24,6 +24,7 @@
         _myTableView.dataSource = self;
         [_myTableView registerNib:[UINib nibWithNibName:@"LyfCell" bundle:nil] forCellReuseIdentifier:@"LyfCell"];
     }
+    
     return _myTableView;
 }
 
@@ -32,6 +33,7 @@
     // Do any additional setup after loading the view.
     [self getDataWithCount:20];
     [self.view addSubview:self.myTableView];
+    NSLog(@"heheda");
 }
 
 - (void)didReceiveMemoryWarning {
