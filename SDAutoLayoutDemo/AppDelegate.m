@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "LyfVC.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    LyfVC * vc = [[LyfVC alloc]init];
+//    vc.view.backgroundColor = [UIColor yellowColor];
+    self.window.rootViewController = vc;
+    
     return YES;
 }
 

@@ -15,6 +15,18 @@
 		6FFD9FA11E7CBAFF0064D50F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FFD9F9F1E7CBAFF0064D50F /* LaunchScreen.storyboard */; };
 		6FFD9FAC1E7CBAFF0064D50F /* SDAutoLayoutDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FFD9FAB1E7CBAFF0064D50F /* SDAutoLayoutDemoTests.m */; };
 		6FFD9FB71E7CBAFF0064D50F /* SDAutoLayoutDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FFD9FB61E7CBAFF0064D50F /* SDAutoLayoutDemoUITests.m */; };
+		6FFD9FC61E7CBCA10064D50F /* LyfVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FFD9FC51E7CBCA10064D50F /* LyfVC.m */; };
+		6FFD9FCC1E7CBF900064D50F /* icon0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6FFD9FC71E7CBF900064D50F /* icon0.jpg */; };
+		6FFD9FCD1E7CBF900064D50F /* icon1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6FFD9FC81E7CBF900064D50F /* icon1.jpg */; };
+		6FFD9FCE1E7CBF900064D50F /* icon2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6FFD9FC91E7CBF900064D50F /* icon2.jpg */; };
+		6FFD9FCF1E7CBF900064D50F /* icon3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6FFD9FCA1E7CBF900064D50F /* icon3.jpg */; };
+		6FFD9FD01E7CBF900064D50F /* icon4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6FFD9FCB1E7CBF900064D50F /* icon4.jpg */; };
+		6FFD9FD31E7CC0900064D50F /* LyfModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FFD9FD21E7CC0900064D50F /* LyfModel.m */; };
+		6FFD9FD71E7CC3D10064D50F /* LyfCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FFD9FD51E7CC3D10064D50F /* LyfCell.m */; };
+		6FFD9FD81E7CC3D10064D50F /* LyfCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FFD9FD61E7CC3D10064D50F /* LyfCell.xib */; };
+		6FFD9FE21E7CC7270064D50F /* UITableView+SDAutoTableViewCellHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FFD9FDF1E7CC7270064D50F /* UITableView+SDAutoTableViewCellHeight.m */; };
+		6FFD9FE31E7CC7270064D50F /* UIView+SDAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FFD9FE11E7CC7270064D50F /* UIView+SDAutoLayout.m */; };
+		6FFDA00B1E7FCF3D0064D50F /* PhotosContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FFDA00A1E7FCF3D0064D50F /* PhotosContainerView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +63,25 @@
 		6FFD9FB21E7CBAFF0064D50F /* SDAutoLayoutDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SDAutoLayoutDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FFD9FB61E7CBAFF0064D50F /* SDAutoLayoutDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDAutoLayoutDemoUITests.m; sourceTree = "<group>"; };
 		6FFD9FB81E7CBAFF0064D50F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FFD9FC41E7CBCA10064D50F /* LyfVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LyfVC.h; sourceTree = "<group>"; };
+		6FFD9FC51E7CBCA10064D50F /* LyfVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LyfVC.m; sourceTree = "<group>"; };
+		6FFD9FC71E7CBF900064D50F /* icon0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = icon0.jpg; sourceTree = "<group>"; };
+		6FFD9FC81E7CBF900064D50F /* icon1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = icon1.jpg; sourceTree = "<group>"; };
+		6FFD9FC91E7CBF900064D50F /* icon2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = icon2.jpg; sourceTree = "<group>"; };
+		6FFD9FCA1E7CBF900064D50F /* icon3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = icon3.jpg; sourceTree = "<group>"; };
+		6FFD9FCB1E7CBF900064D50F /* icon4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = icon4.jpg; sourceTree = "<group>"; };
+		6FFD9FD11E7CC0900064D50F /* LyfModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LyfModel.h; sourceTree = "<group>"; };
+		6FFD9FD21E7CC0900064D50F /* LyfModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LyfModel.m; sourceTree = "<group>"; };
+		6FFD9FD41E7CC3D10064D50F /* LyfCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LyfCell.h; sourceTree = "<group>"; };
+		6FFD9FD51E7CC3D10064D50F /* LyfCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LyfCell.m; sourceTree = "<group>"; };
+		6FFD9FD61E7CC3D10064D50F /* LyfCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LyfCell.xib; sourceTree = "<group>"; };
+		6FFD9FDD1E7CC7270064D50F /* SDAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDAutoLayout.h; sourceTree = "<group>"; };
+		6FFD9FDE1E7CC7270064D50F /* UITableView+SDAutoTableViewCellHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+SDAutoTableViewCellHeight.h"; sourceTree = "<group>"; };
+		6FFD9FDF1E7CC7270064D50F /* UITableView+SDAutoTableViewCellHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+SDAutoTableViewCellHeight.m"; sourceTree = "<group>"; };
+		6FFD9FE01E7CC7270064D50F /* UIView+SDAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SDAutoLayout.h"; sourceTree = "<group>"; };
+		6FFD9FE11E7CC7270064D50F /* UIView+SDAutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SDAutoLayout.m"; sourceTree = "<group>"; };
+		6FFDA0091E7FCF3D0064D50F /* PhotosContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotosContainerView.h; sourceTree = "<group>"; };
+		6FFDA00A1E7FCF3D0064D50F /* PhotosContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotosContainerView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +132,23 @@
 		6FFD9F901E7CBAFF0064D50F /* SDAutoLayoutDemo */ = {
 			isa = PBXGroup;
 			children = (
+				6FFD9FC71E7CBF900064D50F /* icon0.jpg */,
+				6FFD9FC81E7CBF900064D50F /* icon1.jpg */,
+				6FFD9FC91E7CBF900064D50F /* icon2.jpg */,
+				6FFD9FCA1E7CBF900064D50F /* icon3.jpg */,
+				6FFD9FCB1E7CBF900064D50F /* icon4.jpg */,
+				6FFD9FDC1E7CC7270064D50F /* SDAutoLayout */,
 				6FFD9F941E7CBAFF0064D50F /* AppDelegate.h */,
 				6FFD9F951E7CBAFF0064D50F /* AppDelegate.m */,
+				6FFD9FC41E7CBCA10064D50F /* LyfVC.h */,
+				6FFD9FC51E7CBCA10064D50F /* LyfVC.m */,
+				6FFD9FD41E7CC3D10064D50F /* LyfCell.h */,
+				6FFD9FD51E7CC3D10064D50F /* LyfCell.m */,
+				6FFD9FD61E7CC3D10064D50F /* LyfCell.xib */,
+				6FFD9FD11E7CC0900064D50F /* LyfModel.h */,
+				6FFD9FD21E7CC0900064D50F /* LyfModel.m */,
+				6FFDA0091E7FCF3D0064D50F /* PhotosContainerView.h */,
+				6FFDA00A1E7FCF3D0064D50F /* PhotosContainerView.m */,
 				6FFD9F971E7CBAFF0064D50F /* ViewController.h */,
 				6FFD9F981E7CBAFF0064D50F /* ViewController.m */,
 				6FFD9F9A1E7CBAFF0064D50F /* Main.storyboard */,
@@ -138,6 +184,18 @@
 				6FFD9FB81E7CBAFF0064D50F /* Info.plist */,
 			);
 			path = SDAutoLayoutDemoUITests;
+			sourceTree = "<group>";
+		};
+		6FFD9FDC1E7CC7270064D50F /* SDAutoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				6FFD9FDD1E7CC7270064D50F /* SDAutoLayout.h */,
+				6FFD9FDE1E7CC7270064D50F /* UITableView+SDAutoTableViewCellHeight.h */,
+				6FFD9FDF1E7CC7270064D50F /* UITableView+SDAutoTableViewCellHeight.m */,
+				6FFD9FE01E7CC7270064D50F /* UIView+SDAutoLayout.h */,
+				6FFD9FE11E7CC7270064D50F /* UIView+SDAutoLayout.m */,
+			);
+			path = SDAutoLayout;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -247,8 +305,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				6FFD9FA11E7CBAFF0064D50F /* LaunchScreen.storyboard in Resources */,
+				6FFD9FCC1E7CBF900064D50F /* icon0.jpg in Resources */,
+				6FFD9FCF1E7CBF900064D50F /* icon3.jpg in Resources */,
 				6FFD9F9E1E7CBAFF0064D50F /* Assets.xcassets in Resources */,
+				6FFD9FCD1E7CBF900064D50F /* icon1.jpg in Resources */,
+				6FFD9FD01E7CBF900064D50F /* icon4.jpg in Resources */,
 				6FFD9F9C1E7CBAFF0064D50F /* Main.storyboard in Resources */,
+				6FFD9FD81E7CC3D10064D50F /* LyfCell.xib in Resources */,
+				6FFD9FCE1E7CBF900064D50F /* icon2.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,7 +339,13 @@
 			files = (
 				6FFD9F991E7CBAFF0064D50F /* ViewController.m in Sources */,
 				6FFD9F961E7CBAFF0064D50F /* AppDelegate.m in Sources */,
+				6FFDA00B1E7FCF3D0064D50F /* PhotosContainerView.m in Sources */,
+				6FFD9FE21E7CC7270064D50F /* UITableView+SDAutoTableViewCellHeight.m in Sources */,
+				6FFD9FD31E7CC0900064D50F /* LyfModel.m in Sources */,
+				6FFD9FC61E7CBCA10064D50F /* LyfVC.m in Sources */,
+				6FFD9FE31E7CC7270064D50F /* UIView+SDAutoLayout.m in Sources */,
 				6FFD9F931E7CBAFF0064D50F /* main.m in Sources */,
+				6FFD9FD71E7CC3D10064D50F /* LyfCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
